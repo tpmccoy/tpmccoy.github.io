@@ -48,7 +48,7 @@ This repository is the source for my portfolio site. Each artifact is downloadab
 - **Email:** [tpmccoy2020@gmail.com](mailto:tpmccoy2020@gmail.com)
 - **Phone:** 480.828.1125
 - **Location:** Gilbert, AZ — open to relocation
-- **LinkedIn:** [linkedin.com/in/thomasmccoy](https://linkedin.com/in/thomasmccoy)
+- **LinkedIn:** [linkedin.com/in/thomas-mccoy](https://www.linkedin.com/in/thomas-mccoy-b587b519a/)
 
 ---
 
