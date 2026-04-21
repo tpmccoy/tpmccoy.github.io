@@ -441,12 +441,87 @@ html,body{
   .ticker__track{animation:none}
 }
 
-/* Small screen tuning */
+/* ===== MOBILE & TABLET TUNING ===== */
+/* Tablet-range tightening */
+@media(max-width:820px){
+  .section{padding:64px 0}
+  .section__heading{font-size:clamp(28px,5.5vw,44px);margin-bottom:36px}
+  .hero__name{font-size:clamp(44px,10vw,84px)}
+  .contact__heading{font-size:clamp(44px,9vw,96px)}
+  .resume{padding:40px 28px}
+}
+
+/* Phone-range tuning */
 @media(max-width:520px){
-  .hero{padding:48px 0 64px}
-  .section{padding:68px 0}
-  .stats{padding:80px 0 90px}
-  .resume{padding:48px 24px}
+  .wrap{padding:0 20px}
+  .hero{padding:36px 0 56px}
+  .section{padding:56px 0}
+  .stats{padding:72px 0 80px}
+  .resume{padding:40px 22px;gap:24px}
+  .contact{padding:80px 0 56px}
+
+  /* Prevent section headings from overflowing on narrow screens */
+  .section__heading{
+    font-size:clamp(24px,7vw,40px);
+    line-height:1.1;
+    margin-bottom:32px;
+    word-wrap:break-word;
+    overflow-wrap:break-word;
+    hyphens:auto;
+  }
+
+  /* Hero name should never clip */
+  .hero__name{font-size:clamp(40px,11vw,72px);line-height:.95}
+
+  /* Contact headline - let it wrap gracefully */
+  .contact__heading{font-size:clamp(40px,11vw,72px);line-height:.98;margin-bottom:40px}
+
+  /* Process lead paragraph — prevent clipping */
+  .process__lead{
+    font-size:clamp(18px,4.6vw,22px);
+    line-height:1.38;
+    word-wrap:break-word;
+    overflow-wrap:break-word;
+  }
+  .process__pull{font-size:21px;line-height:1.35}
+
+  /* Stat cards — flush edges on phone, no indent */
+  .stat{
+    padding:28px 0!important;
+    padding-left:0!important;
+    min-height:auto;
+    border-right:none!important;
+  }
+  .stat__num{font-size:clamp(52px,14vw,84px)}
+  .stat__desc,.stat__method{max-width:100%}
+
+  /* Experience bullets — wrap comfortably */
+  .exp__bullets li{font-size:13px;line-height:1.55}
+
+  /* Card title on featured portfolio card */
+  .card--featured .card__title{font-size:22px}
+  .card__title{font-size:22px}
+
+  /* Education card headlines */
+  .edu__degree{font-size:22px;line-height:1.2}
+
+  /* Nav date hidden on phone - cleaner header */
+  .nav__brand span{display:none}
+
+  /* Ticker - slightly smaller on phone so more content fits per frame */
+  .ticker{font-size:10.5px;height:28px}
+
+  /* Resume section title */
+  .resume h3{font-size:clamp(28px,7vw,42px)}
+}
+
+/* Extra-narrow (old phones, 360px) safety */
+@media(max-width:380px){
+  .wrap{padding:0 16px}
+  .section__heading{font-size:clamp(22px,6.5vw,32px)}
+  .process__lead{font-size:17px}
+  .hero__name{font-size:54px}
+  .contact__heading{font-size:54px}
 }
 </style>
 </head>
