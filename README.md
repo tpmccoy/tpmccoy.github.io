@@ -21,15 +21,18 @@ Five years stewarding State and Federal funds at the Arizona Governor's Office �
 | **$60K → surplus** | Annual event reversed from multi-year loss to self-funding by Year 4 |
 | **20+** | Partner agencies monitored under Single Audit Act |
 | **0** | Audit findings, consecutive FY cycles |
+| **12/12** | Months reconciled within M+3 tolerance · zero unadjusted variance |
 
 ## Portfolio Artifacts
 
 This repository is the source for my portfolio site. Each artifact is downloadable directly from the live site or from this repo:
 
-- **[Fund Management & Reconciliation Dashboard](01_Fund_Management_Dashboard.xlsx)** — Multi-fund tracking workbook. 140 transactions, SUMIFS-driven pivots, 12-month bank reconciliation, six native charts.
-- **[Travel Budget & Forecast Model](02_Travel_Budget_Forecast.xlsx)** — 60 trip line items tracked against policy, budget vs. actual, 12-month forecast.
+- **[Fund Management & Reconciliation Dashboard](01_Fund_Management_Dashboard.xlsx)** — Multi-fund tracking workbook. 140 transactions, SUMIFS-driven pivots, 12-month bank reconciliation, six native charts. Includes a dedicated **Features Used** methodology sheet documenting 17 Excel techniques applied (formula architecture, conditional formatting, color-scale logic, pivot alternatives).
+- **[Travel Budget & Forecast Model](02_Travel_Budget_Forecast.xlsx)** — 60 trip line items tracked against policy, budget vs. actual, 12-month forecast. Includes a **Features Used** sheet documenting 19 Excel techniques.
 - **[Financial Impact Portfolio Deck](Financial_Impact_Portfolio_Thomas_McCoy.pptx)** — Ten-slide executive brief covering role scope, case studies, systems stack, and career timeline.
 - **[Résumé (PDF)](Thomas_McCoy_Resume.pdf)** — One page, ATS-ready.
+
+Both Excel workbooks use a colorblind-safe palette (Paul Tol / IBM Design — WCAG-AA compliant) for charts and conditional formatting.
 
 ## Technical Stack
 
@@ -54,4 +57,4 @@ This repository is the source for my portfolio site. Each artifact is downloadab
 
 *Figures in the Excel models are illustrative — synthesized to demonstrate workflow and methodology, not actual State of Arizona financial records.*
 
-*The Ledger, Vol. I — Edition 02 · Set in Fraunces & IBM Plex · © MMXXVI*
+*The Ledger, Vol. I — Edition 02 · Set in Fraunces & Inter · © MMXXVI*
