@@ -44,7 +44,7 @@ Both Excel workbooks use a colorblind-safe palette (Paul Tol / IBM Design — WC
 
 - **M.B.A.**, Emphasis in Finance — Grand Canyon University
 - **B.S.** Business Finance, Minor in Mathematics, Certificate in Investments — Northern Arizona University (Lumberjack Scholarship, Full Ride · 3× Dean's List)
-- **CPA Candidate** — Pennsylvania exam pathway
+- **CPA Pathway** — advancing toward licensure; MBA Finance and Math minor provide the 150-hour foundation; finalizing accounting-credit evaluation
 
 ## Contact
 
